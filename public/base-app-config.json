@@ -1,0 +1,33 @@
+{
+  "name": "ViralHub",
+  "description": "Play interactive games, share results, and go viral on Base App",
+  "version": "1.0.0",
+  "author": "ViralHub Team",
+  "homepage": "https://viralhub.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viralhub/mini-app"
+  },
+  "baseApp": {
+    "enabled": true,
+    "frameVersion": "1.0",
+    "accountAssociation": {
+      "enabled": true,
+      "domain": "viralhub.app",
+      "signingKey": "0x"
+    },
+    "farcaster": {
+      "enabled": true,
+      "clientId": "YOUR_FARCASTER_CLIENT_ID",
+      "redirectUri": "https://viralhub.app/auth/callback"
+    }
+  },
+  "features": {
+    "realTime": true,
+    "socialSharing": true,
+    "leaderboard": true,
+    "achievements": true,
+    "userProfiles": true
+  },
+  "permissions": ["read:user", "read:social", "write:scores", "write:shares"]
+}

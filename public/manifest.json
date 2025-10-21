@@ -1,0 +1,24 @@
+{
+  "name": "ViralHub",
+  "description": "Play interactive games, share results, and go viral on Base App",
+  "version": "1.0.0",
+  "icons": [
+    {
+      "src": "/placeholder-logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/placeholder.svg?height=540&width=720",
+      "sizes": "540x720",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["games", "social"],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1e1b4b",
+  "background_color": "#0f172a"
+}

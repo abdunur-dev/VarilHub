@@ -1,0 +1,28 @@
+{
+  "accountAssociation": {
+    "header": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9",
+    "payload": "eyJkb21haW4iOiJ2aXJhbGh1Yi5hcHAiLCJpc3N1ZWRBdCI6IjIwMjQtMDEtMDFUMDA6MDA6MDBaIiwiZXhwaXJlc0F0IjoiMjAyNS0wMS0wMVQwMDowMDowMFoifQ",
+    "signature": "0x"
+  },
+  "frameConfig": {
+    "version": "1",
+    "imageAspectRatio": "1.91:1",
+    "buttons": [
+      {
+        "label": "Play Game",
+        "action": "post",
+        "target": "/api/game"
+      },
+      {
+        "label": "View Profile",
+        "action": "post",
+        "target": "/api/profile"
+      },
+      {
+        "label": "Share Score",
+        "action": "post",
+        "target": "/api/share"
+      }
+    ]
+  }
+}
