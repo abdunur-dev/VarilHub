@@ -10,7 +10,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "ViralHub - Social Mini App",
   description: "Play games, share results, and go viral on Base App",
-  generator: "v0.app",
   openGraph: {
     title: "ViralHub - Social Mini App",
     description: "Play games, share results, and go viral",
